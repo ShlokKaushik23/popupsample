@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style src=""></style>
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/css/lightgallery.min.css" integrity="sha512-kwJUhJJaTDzGp6VTPBbMQWBFUof6+pv0SM3s8fo+E6XnPmVmtfwENK0vHYup3tsYnqHgRDoBDTJWoq7rnQw2+g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .gallery {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .gallery a {
+        width: 300px;
+        height: 200px;
+        margin: 20px;
+        border-radius: 5px;
+        overflow: hidden;
+    }
+    .gallery a img {
+        width: 100%;
+        height: 100%;
+        object-position: center;
+        object-fit: cover;
+    }
+
+</style>
+<body>
+
+    <div class="gallery">
+        <a href="./img/Nitish Jain_belly of the beast_1.webp">
+            <img src="./img/Nitish Jain_belly of the beast_1.webp" alt="">
+        </a>
+
+        <a href="./img/Nitish Jain_belly of the beast_2.webp">
+            <img src="./img/Nitish Jain_belly of the beast_2.webp" alt="">
+        </a>
+
+        <a href="./img/Nitish Jain_belly of the beast_3.webp">
+            <img src="./img/Nitish Jain_belly of the beast_3.webp" alt="">
+        </a>
+
+        <a href="./img/Nitish Jain_belly of the beast_4.webp">
+            <img src="./img/Nitish Jain_belly of the beast_4.webp" alt="">
+        </a>
+
+        <a href="./img/Nitish Jain_belly of the beast_5 copy.webp">
+            <img src="./img/Nitish Jain_belly of the beast_5 copy.webp" alt="">
+        </a>
+
+        <a href="./img/Nitish Jain_belly of the beast_6A.webp">
+            <img src="./img/Nitish Jain_belly of the beast_6A.webp" alt="">
+        </a>
+        <a href="./img/Nitish Jain_belly of the beast_7.webp">
+            <img src="./img/Nitish Jain_belly of the beast_7.webp" alt="">
+        </a>
+    </div>
+    
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightgallery-js/1.4.0/js/lightgallery.min.js"></script>
+
+<script>
+    lightGallery(document.querySelector('.gallery'));
+</script>
+</html>
